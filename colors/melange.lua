@@ -235,7 +235,7 @@ for name, attrs in pairs {
 
   ['@markup.italic'] = { italic = italic },
   ['@markup.strong'] = { bold = bold },
-  ['@markup.strike'] = { strikethrough = strikethrough },
+  ['@markup.strikethrough'] = { strikethrough = strikethrough },
   ['@markup.underline'] = { underline = underline },
 
   ['@markup.quote'] = 'Comment',
@@ -287,7 +287,7 @@ for name, attrs in pairs {
   -- DiagnosticSignOk = {},
 
   DiagnosticDeprecated = { DiagnosticUnderlineError },
-  DiagnosticUnnecessary = { fg = a.com, undercurl = undercurl },
+  DiagnosticUnnecessary = { undercurl = undercurl, sp = a.com },
 
   ---- :help lsp-highlight -----------------------------------
 
@@ -299,6 +299,7 @@ for name, attrs in pairs {
 
   ---- :help lsp-semantic-highlight --------------------------
 
+  ['@lsp.mod.GlobalScope'] = { italic = italic },
   -- ['@lsp.type.class'] = 'Structure',
   -- ['@lsp.type.comment'] = 'Comment',
   -- ['@lsp.type.decorator'] = 'Function',
@@ -306,7 +307,7 @@ for name, attrs in pairs {
   -- ['@lsp.type.enumMember'] = 'Constant',
   -- ['@lsp.type.function'] = 'Function',
   -- ['@lsp.type.interface'] = 'Structure',
-  ['@lsp.type.macro'] = 'Function',
+  ['@lsp.type.macro'] = {},
   -- ['@lsp.type.method'] = 'Function',
   ['@lsp.type.namespace'] = { fg = c.green },
   ['@lsp.type.parameter'] = { fg = a.fg, bold = bold },
