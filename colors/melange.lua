@@ -52,6 +52,7 @@ for name, attrs in pairs {
   ColorColumn = { bg = a.float },
   CursorColumn = 'ColorColumn',
   CursorLine = 'ColorColumn',
+  CursorWord = 'ColorColumn',
   VertSplit = { fg = a.ui },
   WinSeparator = { fg = a.ui },
 
