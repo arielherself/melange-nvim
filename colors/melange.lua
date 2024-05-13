@@ -86,8 +86,9 @@ for name, attrs in pairs {
 
   Conceal = { fg = a.com },
   Whitespace = { fg = a.ui },
+  Hl = { fg = a.hl },
   -- EndOfBuffer = {},
-  NonText = 'Whitespace',
+  NonText = 'Hl',
   SpecialKey = 'Whitespace',
 
   Directory = { fg = c.cyan },
