@@ -124,7 +124,7 @@ for name, attrs in pairs {
   Identifier = { fg = a.fg },
   Function = { fg = b.yellow },
   Constant = { fg = c.magenta },
-  String = { fg = b.blue, italic = fv.italic },
+  String = { fg = b.blue },
   Character = { fg = c.blue },
   Number = { fg = b.magenta },
   Boolean = 'Number',
@@ -177,7 +177,7 @@ for name, attrs in pairs {
   ['@string.escape'] = { fg = c.blue },
   ['@string.regexp'] = { fg = b.blue },
   ['@string.special'] = { fg = b.cyan },
-  ['@string.special.symbol'] = { fg = a.fg, italic = fv.italic },
+  ['@string.special.symbol'] = { fg = a.fg },
   ['@string.special.path'] = { fg = c.blue },
   ['@string.special.url'] = '@string.special.path',
 
