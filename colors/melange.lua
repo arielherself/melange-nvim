@@ -89,6 +89,7 @@ for name, attrs in pairs {
   Hl = { fg = a.hl },
   -- EndOfBuffer = {},
   NonText = 'Hl',
+  MiniTrailspace = 'Hl',
   SpecialKey = 'Whitespace',
 
   Directory = { fg = c.cyan },
